@@ -13,6 +13,6 @@ public class HelloController {
     @GetMapping("/hello")
     public String helloWorld(){
         System.out.println(globalVar);
-        return "Hello World";
+        return "Hello World desde Spring Boot";
     }
 }
